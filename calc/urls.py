@@ -3,5 +3,5 @@ from . import views
 
 
 urlpatterns = [
-    path('cal/',views.Calc.as_view())
+    path('calc/',views.Calc.as_view())
 ]
